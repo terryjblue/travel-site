@@ -31,7 +31,7 @@ gulp.task('styles', function() {
 });*/
 
 gulp.task('watch', function() {
-	/*browserSync.init({
+	browserSync.init({
 		server: {
 			notify: false,
 			baseDir: "app"
@@ -39,7 +39,7 @@ gulp.task('watch', function() {
 
 	});
 
-	return watch('./app/index.html', function() {
+	/*return watch('./app/index.html', function() {
 		browserSync.reload();
 	});*/
 
